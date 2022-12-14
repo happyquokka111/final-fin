@@ -2,9 +2,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navbar.js";
 import About from "./About.js";
 import Work from "./Work.js";
-import { Link } from "react-router-dom";
-
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useRef } from "react";
 
 function Home() {
