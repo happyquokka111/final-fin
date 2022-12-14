@@ -108,13 +108,14 @@ const Kara = () => {
         <div class="container2" id="finalr">
           <h2>IV. Final Site</h2>
           <div class="final">
-            <img
-              src={require("../kara.png")}
-              width="500"
-              height="250"
-              alt="karakare"
-            ></img>
-
+            <a href="https://omieabdelhamid.github.io/kara/karakaremaster/frontend/landing/landing.html">
+              <img
+                src={require("../kara.png")}
+                width="500"
+                height="250"
+                alt="karakare"
+              ></img>
+            </a>
             <p>Check out the final site by clicking here!</p>
           </div>
         </div>
