@@ -107,33 +107,30 @@ const Kara = () => {
         </div>
         <div class="container2" id="finalr">
           <h2>IV. Final Site</h2>
-<div class="final">
-          <a href="https://omieabdelhamid.github.io/kara/karakaremaster/frontend/landing/landing.html">
+          <div class="final">
             <img
               src={require("../kara.png")}
               width="500"
               height="250"
               alt="karakare"
             ></img>
-          </a>
-          <p>
-            Check out the final site by clicking here!
-          </p>
+
+            <p>Check out the final site by clicking here!</p>
           </div>
         </div>
-        </div>
-        <div class="container" id="further">
-          <h2>V. Further Exploration</h2>
-          <p>
-            As I work on this project further, I want to work on the scalability. 
-            The project mainly accounts for the needs of one refugee camp but I would
-            like to give refugee camps the option of displaying various information, i.e.
-            instead of clothing, they could use it for medical supplies. The UI should account
-            for different types of items in the database, which are preferences that should be set
-            in the beginning of creating the manager account. 
-          </p>
-        </div>
-      
+      </div>
+      <div class="container" id="further">
+        <h2>V. Further Exploration</h2>
+        <p>
+          As I work on this project further, I want to work on the scalability.
+          The project mainly accounts for the needs of one refugee camp but I
+          would like to give refugee camps the option of displaying various
+          information, i.e. instead of clothing, they could use it for medical
+          supplies. The UI should account for different types of items in the
+          database, which are preferences that should be set in the beginning of
+          creating the manager account.
+        </p>
+      </div>
     </div>
   );
 };

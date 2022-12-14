@@ -9,6 +9,7 @@ import Fleek from "./Components/Fleek.js";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+
 function App() {
   // const scrollToSect = (el) => {
   //   window.scrollTo({
@@ -34,7 +35,15 @@ function App() {
           ></Navbar>
         </div>
       </div> */}
-
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="iterative" element={<Iterative />} />
+          <Route path="pers" element={<Persona />} />
+          <Route path="eye" element={<Eyetracking />} />
+          <Route path="fleek" element={<Fleek />} />
+        </Routes>
+      </Router>
       {/* <div className="container">
         <div ref={home} className="container" id="descript">
           <h5>Hi, my name is</h5>
@@ -54,3 +63,4 @@ function App() {
 }
 
 export default App;
+
