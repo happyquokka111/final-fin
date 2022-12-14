@@ -1,9 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./Components/Navbar.js";
-import About from "./Components/About.js";
-import Work from "./Components/Work.js";
-import { Link } from "react-router-dom";
+
 import Iterative from "./Components/Kara.js";
 import Persona from "./Components/Persona.js";
 import Home from "./Components/Home.js";
@@ -11,7 +8,7 @@ import Eyetracking from "./Components/Eyetracking.js";
 import Fleek from "./Components/Fleek.js";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useRef } from "react";
+
 
 function App() {
   // const scrollToSect = (el) => {
